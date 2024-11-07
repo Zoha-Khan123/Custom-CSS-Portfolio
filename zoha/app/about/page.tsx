@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "../componant/Nav";
 import "./style.css";
-import Marquee from "./Marquee";
+import Marquee from "../componant/Marquee";
 import Image from "next/image";
 import lngIcon from "../../public/Images/icons.png";
 import Social from "../componant/Social";
