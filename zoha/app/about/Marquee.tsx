@@ -18,7 +18,7 @@ export const Marquee = () => {
         to have learned everything, but I can confidently say that I am
         committed to learning new things every day and improving my skills. If
         you are seeking a dedicated team member who is not afraid to tackle new
-        challenges, let's connect and embark on a journey towards a better
+        challenges, let&apos;s connect and embark on a journey towards a better
         future together.
       </div>
     </>

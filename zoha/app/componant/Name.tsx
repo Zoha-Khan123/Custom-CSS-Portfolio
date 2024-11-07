@@ -12,12 +12,12 @@ const Name = () => {
           <p>Hello, its Me </p>
           <h1>Zoha Khan</h1>
           <p>
-            And i'm a <span>frontend Developer</span>
+            And i&apos;m a <span>frontend Developer</span>
           </p>
           <div className="descr">
-            "Hi, I'm Zoha Khan, a frontend developer passionate about crafting
+          &quot;Hi, I&apos;m Zoha Khan, a frontend developer passionate about crafting
             seamless user experiences. Expertise in HTML, CSS, JavaScript, and
-            more."
+            more.&quot;
           </div>
         </div>
 <div>

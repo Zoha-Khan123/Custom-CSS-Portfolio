@@ -21,10 +21,10 @@ const Skills = () => {
             height={1000}
           />
           <b><u>HTML:</u> </b>
-          "Highly skilled in HTML5, I craft semantic and responsive web
+          &quot;Highly skilled in HTML5, I craft semantic and responsive web
           interfaces. With expertise in structuring complex layouts, I
           prioritize web accessibility and SEO. Delivering dynamic web
-          applications with clean, valid, and maintainable markup."
+          applications with clean, valid, and maintainable markup.&quot;
         </div>
 
         <div className="desx">
@@ -36,9 +36,9 @@ const Skills = () => {
             height={1000}
           />
           <b><u>CSS:</u> </b>
-          "Expert in CSS3 and Tailwind CSS, crafting responsive interfaces.
+          &quot;Expert in CSS3 and Tailwind CSS, crafting responsive interfaces.
           Proficient in layout modeling and efficient styling. Delivering
-          scalable and maintainable designs."
+          scalable and maintainable designs.&quot;
         </div>
 
         <div className="desx">
@@ -50,9 +50,9 @@ const Skills = () => {
             height={1000}
           />
           <b><u>TypeScript:</u> </b>
-          "Expert in TypeScript, building scalable and maintainable JavaScript
+          &quot;Expert in TypeScript, building scalable and maintainable JavaScript
           applications. Utilizing static type checking and interfaces for robust
-          code. Delivering efficient and reliable solutions."
+          code. Delivering efficient and reliable solutions.&quot;
         </div>
 
         <div className="mn">
@@ -65,11 +65,11 @@ const Skills = () => {
               height={1000}
             />
             <b><u>React:</u> </b>
-            "Highly skilled in React, building reusable UI components and
+            &quot;Highly skilled in React, building reusable UI components and
             scalable applications. Expertise in Hooks, Redux, and context API
             enables efficient state management and seamless data flow.
             Delivering responsive, interactive, and high-performance web
-            experiences."
+            experiences.&quot;
           </div>
         </div>
       </div>

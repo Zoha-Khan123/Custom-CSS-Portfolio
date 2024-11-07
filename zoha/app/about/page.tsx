@@ -1,6 +1,5 @@
 import React from "react";
 import Nav from "../componant/Nav";
-import Name from "../componant/Name";
 import "./style.css";
 import Marquee from "./Marquee";
 import Image from "next/image";
