@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  background: url(./componant/Images/bg.jpg);
+  background: url(/public/Images/bg.jpg);
 
   background-size: cover;
 }

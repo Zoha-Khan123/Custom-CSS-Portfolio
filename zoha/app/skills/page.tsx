@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.css";
-import react from "../componant/Images/react.png";
-import css from "../componant/Images/css.png";
-import html from "../componant/Images/html.png";
-import typescript from "../componant/Images/typescript.png";
+import react from "../../public/Images/react.png";
+import css from "../../public/Images/css.png";
+import html from "../../public/Images/html.png";
+import typescript from "../../public/Images/typescript.png";
 import Image from "next/image";
 import Nav from "../componant/Nav";
 const Skills = () => {

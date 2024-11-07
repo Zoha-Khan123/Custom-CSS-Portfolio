@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import laptop from "./Images/laptop.png";
+import laptop from "@/public/Images/laptop.png";
 import "./Name.css"
 import Social from "./Social";
 

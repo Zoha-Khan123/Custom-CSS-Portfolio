@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import fb from "./Images/facebook-round-svgrepo-com.svg";
-import lnkdn from "./Images/linkedin-round-svgrepo-com.svg";
-import github from "./Images/github-round-svgrepo-com.svg";
+import fb from "../../public/Images/facebook-round-svgrepo-com.svg";
+import lnkdn from "../../public/Images/linkedin-round-svgrepo-com.svg";
+import github from "../../public/Images/github-round-svgrepo-com.svg";
 import Link from "next/link";
 const Social = () => {
   return (

@@ -3,7 +3,7 @@ import Nav from "../componant/Nav";
 import "./style.css";
 import Marquee from "./Marquee";
 import Image from "next/image";
-import lngIcon from "../componant/Images/icons.png";
+import lngIcon from "../../public/Images/icons.png";
 import Social from "../componant/Social";
 
 const About = () => {
