@@ -1,0 +1,58 @@
+h2 {
+  color: #ffffff;
+  text-align: center;
+  position: relative; /* Added */
+  margin-top: 50px;
+  font-size: xx-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 5px;
+}
+
+h2::before {
+  content: "";
+  width: 20%;
+  height: 3px;
+  position: absolute; /* Added */
+  left: 50%; /* Align to center */
+  transform: translateX(-50%); /* Centering */
+  top: 47px;
+  background-color: white;
+  margin-bottom: 5px;
+}
+.cnt {
+  text-align: center;
+  font-size: larger;
+  color: #ffffff;
+  transform: translate(-50% -50%);
+  margin-top: 2px;
+}
+
+.tbl {
+  width: 100%;
+}
+.tbl * {
+  border: 1px solid white;
+  padding: 10px;
+  text-align: center;
+  overflow: wrap;
+}
+
+td {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 100) 12%, #15bcde 200%);
+}
+
+th {
+  color: blanchedalmond;
+  font-size: larger;
+}
+
+
+
+
+@media (width < 750px) {
+
+  .tbl {
+
+    scale: 0.8;
+  }
+}

@@ -1,0 +1,91 @@
+.mainCards {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 100) 12%, #15bcde 200%);
+  padding: 30px;
+  width: 80vw;
+  height: 80vh;
+  position: absolute; /* Change from relative to absolute */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); /* Added missing comma */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow for depth */
+  border-radius: 10px; /* Optional: Add border radius for rounded corners */
+  overflow: scroll;
+  overflow-X: hidden;
+  animation: move 2s;
+}
+
+h2 {
+  color: #ffffff;
+  text-align: center;
+  position: relative; /* Added */
+  margin-top: 50px;
+  font-size: xx-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2::before {
+  content: "";
+  width: 30%;
+  height: 3px;
+  position: absolute; /* Added */
+  left: 50%; /* Align to center */
+  transform: translateX(-50%); /* Centering */
+  top: 47px;
+  background-color: white;
+}
+.des {
+  color: rgb(4, 207, 207);
+  text-align: center;
+  font-size: large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 100px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+iframe {
+  width: 80%;
+  height: 600px;
+  background-color: #ffffff;
+  transition: all 0.5s;
+  text-align: center;
+ 
+}
+iframe:hover {
+  transform: scale(1.1);
+  border: none;
+  border-radius: 10px;
+}
+
+@keyframes move {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+@media (width < 920px) {
+ 
+  iframe {
+    width: 80%;
+   margin: 0px;
+  }
+ .mainCards{
+  padding: 30px;
+  width: 90vw;
+ }
+
+ .grid {
+
+  gap: 50px;
+
+}
+}
